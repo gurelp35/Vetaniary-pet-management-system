@@ -1,0 +1,41 @@
+Veterinary Management System
+Presented by: Oleksandr Melnyk A00038274
+              Khrystyna Hulka HUL22614071
+              Pakize Gurel GUR23612588
+
+Project Description:
+This C++ console application is developed to support daily operations in a veterinary clinic. The system allows users to manage pet profiles, owner information, and veterinary appointments efficiently. It is built using object-oriented programming (OOP) principles and ensures a clear separation of responsibilities across the application.
+Key Features:
+Create, update, and delete pet records
+Manage owner profiles with validation checks
+Schedule, edit, complete, or cancel appointments
+View upcoming and past appointments for specific pets
+Role-based access for Veterinarian, Admin, and Staff users
+Data persistence using plain text files for portability and simplicity
+Class Structure:
+Pet: Handles animal-related data such as name, breed, age, vaccination status, and medical history.
+Owner: Stores personal details of pet owners including name, contact number, email, and address.
+Appointment: Links pets and their owners with a scheduled date and time, including appointment status.
+Design Approach:
+Separation of classes ensures modularity and easier debugging.
+Validation functions are used to prevent invalid data entry.
+Text files are used for storing records to simplify deployment and avoid database dependency.
+The user interface is menu-driven, with role-based restrictions to control system access.
+File Overview:
+pets.txt: Stores pet records
+owners.txt: Stores owner information
+appointments.txt: Stores appointment schedules and statuses
+How to Run the Program:
+Open the project in an IDE such as Visual Studio.
+Ensure the main() function is included in the source code.
+Compile and run the program using the IDE's build tools.
+Follow the on-screen menu instructions after selecting a user role (Veterinarian, Admin, Staff).
+Usage Notes:
+Inputs are validated for correctness (e.g., age must be positive, emails must follow proper format).
+Only allowed roles can perform specific operations (e.g., only Veterinarians can update medical records).
+Appointments can be filtered by status or pet name to view upcoming or completed visits.
+Testing Examples:
+Pet Age: -2 → Error: Invalid input. Age must be a positive number.
+Email: wrong@@mail → Error: Invalid email format.
+Date: 32/13/2025 → Error: Invalid date.
+
