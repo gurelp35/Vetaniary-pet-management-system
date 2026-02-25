@@ -1,7 +1,5 @@
 Veterinary Management System
-Presented by: Oleksandr Melnyk A00038274
-              Khrystyna Hulka HUL22614071
-              Pakize Gurel GUR23612588
+Presented by:Pakize Gurel GUR23612588
 
 Project Description:
 This C++ console application is developed to support daily operations in a veterinary clinic. The system allows users to manage pet profiles, owner information, and veterinary appointments efficiently. It is built using object-oriented programming (OOP) principles and ensures a clear separation of responsibilities across the application.
@@ -38,4 +36,5 @@ Testing Examples:
 Pet Age: -2 → Error: Invalid input. Age must be a positive number.
 Email: wrong@@mail → Error: Invalid email format.
 Date: 32/13/2025 → Error: Invalid date.
+
 
